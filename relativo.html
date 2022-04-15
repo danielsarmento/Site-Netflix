@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body{
+            background-color: #141414;
+        }
+        .header-rigth{
+            float: right;  
+            margin: 20px;       
+            
+        }
+        .header-rigth a{
+            text-decoration: none;
+            color: white;
+        }
+        .search, .notificacoes{
+            display: inline-block;
+        }
+        .header-rigth i{
+            cursor: pointer;
+            color: white;
+            font-size: 20px;
+            margin: 0 15px;
+        }
+        .notificacoes{
+            position: relative;
+            
+        }
+        .circulo-notificacao{
+            position:absolute;
+            right:4px;
+            top: -10px;
+            width: 20px;
+            height: 20px;
+            border-radius: 10px;
+            background: #e50914; 
+            text-align: center;
+            vertical-align: 20px;
+        }
+        .circulo-notificacao span{
+            font-size: 14px;
+            color: white;  
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+    <div class="header-rigth">
+
+        <div class="search">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <a href="">INFANTIL</a>
+        <div class="notificacoes">
+                <div class="circulo-notificacao">
+                    <span>10</span>
+                </div>
+                <i class="fa-solid fa-bell"></i>
+            </div>
+    </div>
+    </main>
+    
+
+    <script src="https://kit.fontawesome.com/8561a440cf.js" crossorigin="anonymous"></script>
+    
+</body>
+</html>
